@@ -1,0 +1,70 @@
+body{
+    background-image: url("Rate&submitBackground2.jpg");
+    width: 100%;
+    height: 100%;
+}
+#subtitle{
+    color: rgb(99, 221, 17);
+}
+  .headPoint{
+     
+    color: rgb(22, 58, 214);
+    text-align: center;
+    -moz-animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+    -moz-animation-name: slidein-left;
+    -webkit-animation-name: slidein-left;
+  }
+  
+  @-moz-keyframes slidein-left {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  
+  @-webkit-keyframes slidein-left {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }  
+  
+  /* h2 {
+    -moz-animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+    -moz-animation-name: slidein-right;
+    -webkit-animation-name: slidein-right;
+  }
+   */
+  /* @-moz-keyframes slidein-right {
+    from {
+      margin-right: 100%;
+      width: 300%
+    }
+    to {
+      margin-right: 0%;
+      width: 100%;
+    }
+  }
+  
+  @-webkit-keyframes slidein-right {
+    from {
+      margin-right: 100%;
+      width: 300%
+    }
+    to {
+      margin-right: 0%;
+      width: 100%;
+    }
+  } */
+
+  
