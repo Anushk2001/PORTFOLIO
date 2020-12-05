@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect with me</title>
+    <link rel="shortcut icon" href="/static/Images/connectme.png" type="image/x-icon">
+    <link rel="icon" href="/static/Images/connectme.png" type="image/x-icon">
+
+    <link rel=stylesheet type="text/css" href="{{ url_for('static', filename='css/Rate&submit.css') }}">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <!-- <link rel="icon" href=".\static\Images\connectme.png" type="image/icon type">  -->
+</head>
+<body style="background-color: rgb(21, 202, 148); width: 100%; height: 100%;">
+    <!-- <div class="divHeader" style="background-color: rgb(172, 21, 202);">
+             <h1>jsnainolc</h1>
+    </div> -->
+   <!-- <h1>
+    test
+   </h1> -->
+    <!-- <div class="headPoint">
+        <h1> Make a connection with me!</h1>
+    </div>
+     -->
+    <!-- <div class="field">
+        <label class="label">Name</label>
+        <div class="control">
+          <input class="input" type="text" placeholder="e.g Alex Smith">
+        </div>
+      </div>
+      
+      <div class="field">
+        <label class="label">Email</label>
+        <div class="control">
+          <input class="input" type="email" placeholder="e.g. alexsmith@gmail.com">
+        </div>
+      </div> -->
+         <!-- <header class="intro-header" style="background-image: url('static/Rate&submitBackground2.jpg'); width: 100%; height: 100%;"> -->
+            <section >  
+                <br>
+               <div class="divHeader" >
+    
+        <div class="headPoint">
+            <h1> Make a connection with me!</h1>
+          </div>
+        <div class="container">
+            <div class="column is-half is-offset-one-quarter"> 
+                <div class="card">
+                    <div class="card-image">
+                        <!-- <figure class="image is-2by1" >
+                            <img src="https://images-na.ssl-images-amazon.com/images/I/71Ia2VhXfPL._SL1500_.jpg" alt="">
+                        </figure> -->
+                    </div> 
+                    <header class="card-header">
+                      <p class="card-header-title" style="color: rgb(35, 26, 160);">
+                        Hey!, What's Good...
+                      </p>   
+                    </header>
+              <div class="card-content">
+                   <div class="content">
+                       <form action="" id="submit" method="POST">
+                            <label  class="label" for="name"> 
+                                <input class="input is-rounded" id="name" name="name" type="text" placeholder="Name" required> 
+                            </label>  
+                            
+                            <label  class="label" for="email"> 
+                                <input class="input is-rounded" id="email" name="email" type="email" placeholder="Email-ID" required> 
+                            </label>  
+                            
+                            <label  class="label" for="collegeName"> 
+                                <input class="input is-rounded" id="collegeName" name="collegename" type="text" placeholder="College Name" > 
+                            </label>  
+                            
+                            <label  class="label" for="message"> 
+                                <textarea class="textarea" id="message" name="message" placeholder="Message for me"></textarea > 
+                            </label>  
+                            <!-- style="color: rgb(91, 209, 12); -->
+                            <p class="subtitle" " id="subtitle">Please fill the above Informations</p>
+                        <label for="year" id="" class="label is-medium is-inline ">
+                            Are you from IIT Indore?</label>
+                        <div class="select is-rounded">
+                            <select name="iiti" id="iiti" >                             
+                                <option value="-">-</option>
+                                <option value="Yes">Yes</option>
+                                <option value="No">No</option>
+                                <!-- <option value="4">4</option> -->
+                            </select>
+                            
+                        </div>
+                              <!-- <footer class="card-footer">
+                              <button for="submit" id="submit" class="button is-danger card-footer-item" >Submit</button>
+                             </footer> -->
+                            
+                         </div>
+                      
+                    </div>
+
+                    <footer class="card-footer">
+                        <button class="button is-danger card-footer-item" for="submit" id="submit"  > Submit</button>
+                       </footer>
+
+                    </form>
+
+                  </div>
+            </div>
+        </div>
+          <div class="endGreetings">
+               <h1>Thank You</h1>
+           </div>
+                   </div>
+                   <br>
+       </section>
+    
+</body>
+</html>
+
+
+  <!-- <br>
+                        <form action="">
+                            <input class="input is-rounded" type="email" placeholder="Email-ID">              
+                        </form>
+                        <br>
+                        <form action="">
+                            <input class="input is-rounded " type="text" placeholder="College Name">
+                        </form>
+                        <br>
+                        <form action="">
+                            <textarea class="textarea"  placeholder="Message for me"></textarea>
+                        </form> -->
+                        <!-- <br> -->
+                        <!-- <input type="text" placeholder="First Name"> -->
+                        
+                        <!-- <p class="subtitle" id="subtitle">Please fill the above Information</p>
+                        <label for="Playto" id="PlayingTo" class="label is-medium is-inline ">Year of studing</label>
+                        <div class="select is-rounded">
+                            <select name="" id="Playto">                             
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                        </div>
+                      </div>
+                      
+                    </div>
+                    <footer class="card-footer"> -->
+                        <!-- <button id="p1Button" class="button is-primary card-footer-item">+1 Player one</button>
+                        <button id="p2Button" class="button is-info card-footer-item">+1 Player two</button> -->
+                        <!-- <button for="submit" id="submit" class="button is-danger card-footer-item" >Submit</button> -->
+                      <!-- <a href="#" class="card-footer-item">Save</a>
+                      <a href="#" class="card-footer-item">Edit</a>
+                      <a href="#" class="card-footer-item">Delete</a> -->
+                    <!-- </footer> -->
+
